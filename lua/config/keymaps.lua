@@ -39,7 +39,7 @@ ks("v", ">", ">gv", { desc = "Indent right and reselect" })
 ks("n", "<", "<<", { desc = "Indent line left" })
 ks("n", ">", ">>", { desc = "Indent line right" })
 
-ks("t", "<ESC>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+ks("t", "<C-ESC>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- Quickfix list navigation
 ks("n", "<leader>mk", "<cmd>lnext<CR>zz", { desc = "Next location list item" })
