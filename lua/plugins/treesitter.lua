@@ -8,6 +8,7 @@ return {
       "zig",
       "cpp",
       "toml",
+      "rust",
       "json",
       "python",
       "lua",
