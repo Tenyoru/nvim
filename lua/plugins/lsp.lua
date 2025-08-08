@@ -84,7 +84,18 @@ return {
           "--function-arg-placeholders",
           "--fallback-style=llvm",
         },
-      }
+      },
+      gopls = {
+        settings = {
+          gopls = {
+            analyses = {
+              unusedparams = true,
+            },
+            staticcheck = true,
+            gofumpt = true,
+          },
+        },
+      },
     },
   },
 }
